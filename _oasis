@@ -1,0 +1,12 @@
+OASISFormat: 0.3
+Name:        ocaml-webdriver
+Version:     0.1
+Synopsis:    Selenium Webdriver client
+Authors:     Miguel Yanez miguel@yanez.us
+License:     MIT
+BuildTools: ocamlbuild
+
+Library webdriver
+  Pack: true
+  Path: src
+  Modules: Command, Driver, Element, Remote
