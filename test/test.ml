@@ -1,4 +1,4 @@
-open Driver
+open Webdriver.Driver
 let _ =
-		let driver = Driver.create "http" "profile" in
-				prerr_endline(driver.url);; 
+		let driver = Webdriver.Driver.create "http" "profile" in
+				prerr_endline(driver.url);;
